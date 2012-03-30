@@ -1,0 +1,10 @@
+inherit xorg
+
+PATCH_URI="0.3.5-no-undefined.patch
+           0.3.5-no-xv.patch"
+
+DEPS_PATH="/usr/lib/xorg/modules"
+
+CYGCONF_ARGS="--disable-dga"
+
+KEEP_LA_FILES="none"
