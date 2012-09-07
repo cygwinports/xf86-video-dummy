@@ -1,0 +1,15 @@
+inherit xorg
+
+NAME="xf86-video-dummy"
+VERSION=0.3.6
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Offscreen framebuffer video driver for Xorg X11 server"
+DESCRIPTION="Offscreen framebuffer video driver for Xorg X11 server.  This can
+be used with Xorg in place of the Xvfb and Xfake servers."
+
+DEPS_PATH="/usr/lib/xorg/modules"
+
+CYGCONF_ARGS="--disable-dga"
+
+KEEP_LA_FILES="none"

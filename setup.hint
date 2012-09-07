@@ -1,5 +1,0 @@
-category: X11
-requires: xorg-server
-sdesc: "Offscreen framebuffer video driver for Xorg X11 server"
-ldesc: "Offscreen framebuffer video driver for Xorg X11 server.  This can
-be used with Xorg in place of the Xvfb and Xfake servers."
