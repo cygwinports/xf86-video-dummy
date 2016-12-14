@@ -1,8 +1,8 @@
 inherit xorg
 
 NAME="xf86-video-dummy"
-VERSION=0.3.7
-RELEASE=4
+VERSION=0.3.8
+RELEASE=1
 CATEGORY="X11"
 SUMMARY="Offscreen framebuffer video driver for Xorg X11 server"
 DESCRIPTION="Offscreen framebuffer video driver for Xorg X11 server.  This can
